@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>麻雀ゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>本格4人麻雀ゲーム</h1>
+  <div id="game-info">
+    <div id="round-info">東1局 親: あなた</div>
+    <div id="points">点棒: 25000</div>
+    <div id="dora">ドラ表示牌: <span id="dora-tile">？</span></div>
+  </div>
+  <div id="hands">
+    <div id="cpu1-hand" class="cpu-hand">CPU1の手牌</div>
+    <div id="cpu2-hand" class="cpu-hand">CPU2の手牌</div>
+    <div id="cpu3-hand" class="cpu-hand">CPU3の手牌</div>
+    <div id="player-hand" class="hand"></div>
+  </div>
+  <div id="controls">
+    <button id="draw-button">ツモ</button>
+    <button id="riichi-button" disabled>リーチ</button>
+  </div>
+  <div id="message"></div>
+  <script src="tiles.js"></script>
+  <script src="yaku.js"></script>
+  <script src="rules.js"></script>
+  <script src="player.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
