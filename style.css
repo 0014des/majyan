@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+.hand, .cpu-hand {
+  margin-top: 15px;
+  padding: 10px;
+}
+.tile {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  border: 2px solid #00796b;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#controls {
+  margin-top: 20px;
+}
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00695c;
+}
